@@ -1,0 +1,195 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e8f0ef;
+}
+
+header {
+    top: 0;
+    background-color: #a4ebee;
+    border-bottom: 1px solid #466995;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+header h1 {
+    margin: auto;
+    padding: 20px 20px;
+    display: inline-block;
+    color:#03093b;
+}
+
+header li {
+    font-size: 1.5em;
+    display: inline-block;
+    margin: 0px 50px;
+}
+
+header ul {
+    margin: auto;
+    padding: 25px 20px;
+    display: inline-block;
+    color:black
+}
+
+nav {
+    float: right;
+}
+
+nav a {
+    text-decoration: none;
+    color: #1a07c6;
+}
+
+nav a:hover {
+    color:#2504fd
+}
+
+section {
+    margin: 60px auto 60px auto;
+    width: 90%;
+    border: 1px solid black;
+    background-color: rgb(170, 236, 222);
+}
+
+.title {
+    text-align: center;
+    text-decoration: underline;
+    width: 100%;
+    border-bottom: 1px dotted black;
+    padding:20px 0px;
+    margin: 0px;
+}
+
+.bordercolor{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.colorbox {
+    margin: 20px;
+    min-height: 100px;
+    width: 20%;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.textbox {
+    text-align: left;
+}
+
+.textstyle h1{
+    Font-weight: 700;
+    Font-size: 26px;
+    Font-family: "Nunito Sans", sans-serif;
+}
+
+.textstyle h2 {
+    Font-weight: 500;
+    Font-size: 18px;
+    Font-family: 'Poppins', sans-serif;
+}
+
+.textstyle p {
+    Font-weight: 400;
+    Font-size: 14px;
+    Font-family: "Times-New-Roman", sans-serif;
+}
+
+.textbox {
+    margin: 20px;
+}
+
+.fontbox {  
+    margin: 20px;
+    min-height: 100px;
+    width: 20%;
+}
+
+.borderfont{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center; 
+}
+
+#source-code-pro {
+    font-family:"Source Code Pro";
+}
+
+#nunito-sans {
+    font-family:"Nunito Sans";
+}
+
+#poppins {
+    font-family:"Poppins";
+}
+
+#underlining {
+    text-decoration: underline;
+    Font-weight: 550;
+    Font-size: 20px;
+}
+
+#regular {
+    font-weight:normal;
+}
+
+#bold {
+    font-weight:bold;
+}
+
+#italic {
+    font-weight:oblique;
+}
+/* div {
+    display: block;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.anchor {
+    position: relative;
+    left: 0px;
+    top: -80px;
+} */
+
+#coolblue {
+    color:black;
+    background-color: #2d5dcc;
+}
+
+#pink {
+    background-color:#d957d9;
+}
+
+#minigreen{
+    background-color:#4fe0b0;
+}
+
+#beige{
+    background-color:#efd9ca;
+}
+
+#wswblue {
+    background-color: #003d77;
+}
+
+#red {
+    background-color: #da072c;
+}
+
+#candyaaplered {
+    background-color: #ff0800;
+}
+
+#purpur {
+    background-color: #9648ab;
+}
